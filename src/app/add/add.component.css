@@ -1,0 +1,161 @@
+.box{
+    width: 50%;
+    border: 2px solid #000;
+    border-radius: 30px;
+    padding: 0px 20px 20px 20px;
+    margin-left: 400px;
+    box-shadow: 10px 20px 20px 10px black;
+    margin:40px 20px;
+    background-color:aqua;
+    animation: box 0.6s;
+    
+}
+/* @keyframes box{
+    0%{
+        transform: translateY(20vh);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1
+    }
+    100%{
+        transform: translateY(2vh);
+        opacity: 0;
+    }
+
+
+} */
+
+
+.btn{
+    margin:8px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color:black;
+    border-radius: 40px;
+}
+.btn:focus{
+    width: 50%;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid gold;
+}
+.btn:hover{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    
+}
+.table{
+height: 100px;
+width: 150px;
+margin-left: 50px;
+font-size: 20px;
+border: 3px solid black;
+color:black;
+font-weight: bold;
+background-color:white;
+animation: table 0.6s;
+
+
+}
+/* 
+@keyframes table{
+    0%{
+        transform: translateY(3vh);
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0
+    }
+    100%{
+        transform: translateX(10vh);
+        opacity: 0;
+    }
+
+
+} */
+
+
+.form-control{
+    font-size: 18px;
+    color:red;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-right: 10px;
+    
+}
+.lable{
+    font-size: 20px;
+    color:black;
+    font-weight: bolder;
+ }
+/* .col{
+    margin-left: 20px;
+    box-shadow: 3px 5px black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+} */ 
+
+.actions{
+    display: inline-block;
+    
+    
+}
+.add-Boot{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+    color:black;
+    height: 10px;
+}
+.card{
+    margin-left: 500px;
+
+    
+}
+form{
+    flex-direction: row;
+}
+@media only screen and (max-width: 900px) {
+   
+    .card{
+        margin:50px 40px 40px 50px;
+        
+    }
+    .box{
+        padding-left: 40px;
+        
+    }
+    form{
+        flex-direction: column;
+    }
+
+  }
+  body{
+      background-color:snow ;
+      height: 100vh;
+      width: 100%;
+      background-size: cover;
+
+  }
+  .btn-1{
+      color: white;
+      background-color: red;
+      border-radius: 10px;
+      border: 2px solid black;
+  }
+.btn-1:hover{
+    background-color: black;
+}
+

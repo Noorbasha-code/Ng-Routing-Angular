@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <title>Index</title>
+        
+    </head>
+    <body>
+ <div class="box0">
+            
+<div class="card">
+    <form [formGroup] = "userForm"> 
+
+    <div class="mt-5 box" >
+        <div class="form-row">
+
+
+
+            <div class="lable">       
+                    <label>ID</label>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                        <input type="text"  formControlName="Id" class="form-control" placeholder="Enter your Id" required>
+                 </div>
+            </div>
+
+
+            <div class="lable">    
+                    <label>Name</label>
+            </div>
+            <div class="form-row">
+                    <div class="col">
+                        <input type="text" (keypress.enter)="onkeypress($event)" formControlName="Name" class="form-control" placeholder="Enter your Name" required>
+                    </div>
+            </div>
+
+
+            <div class="lable">    
+                    <label>Email</label>
+            </div>
+            <div class="form-row">
+                    <div class="col">
+                        <input type="text" (keypress)="onkeypress($event)"formControlName="Email" class="form-control" placeholder="Enter your Email_Id" required>
+                    </div>
+            </div>
+
+
+            <div class="lable">
+                    <label>Company</label>
+            </div>
+            <div class="form-row">
+                    <div class="col">
+                        <input type="text" (keypress)="onkeypress($event)" formControlName="Company" class="form-control" placeholder="Enter your Company" required>
+                    </div>    
+            </div>
+
+            <div class="lable">
+                
+                    <label>Location</label>
+            </div>
+            <div class="form-row">
+                    <div class="col">
+                        <input type="text" (keypress)="onkeypress($event)" formControlName="Location" class="form-control" placeholder="Enter your Location" required>
+                    </div>
+            </div>
+
+            <div class="lable">
+                
+                    <label>Salary</label>
+            </div>
+            <div class="form-row">
+                    <div class="col">
+                        <input type="text" (keypress)="onkeypress($event)" formControlName="Salary" class="form-control" placeholder="Enter your Salary" required>
+                    </div>  
+            </div>
+        
+            <div class="actions">
+                <div mt-4>
+
+                    <button type="button" class="btn btn-success" (click)="addItem()">Add</button>
+                    <button type="button" class="btn btn-primary" (click)="reset()">Reset</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+            
+    
+    </form>
+    
+
+    <div class="table1">
+
+
+
+    <table class="table" border="3">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Company</th>
+                <th>Location</th>
+                <th>Salary</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of listData">
+
+                <td class="add-Boot">{{item.Id}}</td>
+                <td class="add-Boot" >{{item.Name}}</td>
+                <td class="add-Boot">{{item.Email}}</td>
+                <td class="add-Boot">{{item.Company}}</td>
+                <td class="add-Boot">{{item.Location}}</td>
+                <td class="add-Boot">{{item.Salary}}</td>
+                <td><button type="button" class="btn-1 btn-danger" (click)="removeItem(item)">Remove</button></td>
+                
+                </tr>
+        </tbody>
+        </table>
+    </div>
+
+
+
+</div>
+
+
+</div>
+    </body>
+</html>

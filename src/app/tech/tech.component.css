@@ -1,0 +1,24 @@
+#home{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    /* text-shadow: 10rem black;
+    border: 1px solid black; */
+    border-radius: 30px;
+    margin: 150px;
+    width: 400px;
+    height: 300px;
+    border: 2px solid green;
+    /* padding: 10px; */
+    box-shadow: 10px 15px 10px 5px rgb(137, 13, 219);
+    margin-left: 450px;
+}
+h1{
+    color: red;
+    font-weight: bold;
+}
+h2{
+    color: purple;
+    font-size: 40px;
+    font-style: italic;
+}

@@ -1,0 +1,151 @@
+.btn{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    border-radius: 20px;
+    padding: 6px 10px;
+    margin-bottom: 30px;
+    cursor: none;
+    margin-top: 30px;
+    margin-left: 500px;
+    background-color: blue;
+    animation: movedown 1s linear 1;
+	animation-delay: 1s;
+	visibility: hidden;
+	animation-fill-mode: forwards;
+
+
+}
+@keyframes movedown{
+    0%{
+        transform: translateY(-100px);
+        visibility: visible;
+    }
+
+    100%{
+        transform: translateY(0px);
+        visibility: visible;
+    }
+}
+
+.log-dash{
+    height: 500px;
+    width: 500px;
+    background-color:black;
+    border:3px solid brown;
+    margin-left: 500px;
+    border-radius: 30px;
+    box-shadow: 100px 3px 4px  green;
+    margin-top: 50px;
+}
+form{
+    padding:50px 70px;
+    font-size: 37px;
+    margin-top: -20px;
+    margin-left: 40px;
+}
+.lable{
+    color: orange;
+    font-size: 22px;
+    padding: 0 3px;
+    font-weight: bold;
+
+}
+.log-control{
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.log-control:hover{
+    box-shadow: 10px 10px 30px 20px gray;
+}
+.btn-1{
+    color:white;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 0 20px;
+    font-size: 20px;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 900px) {
+    .btn{
+        margin-left:60px;
+    }
+    form{
+        margin-left: 60px;
+    }
+    .log-dash{
+        margin-left: 40px;
+    }
+    .callout{
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    
+}
+input.ng-invalid{
+    border-right:20px solid red ;
+}
+
+input.ng-valid{
+    border-right:20px solid green ;
+}
+span{
+    color: red;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+
+
+.callout {
+    position: fixed;
+    bottom:30px;
+    right: 40px;
+    top: 750px;
+    margin-left: 10px;
+    max-width: 300px;
+    border-radius: 15px;
+    animation: movedown 1s linear 1;
+	animation-delay: 1s;
+	visibility: hidden;
+	animation-fill-mode: forwards;
+
+   
+  }
+  
+  .callout-header {
+    padding: 25px 15px;
+    background:red;
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+  }
+  
+  .callout-container {
+    padding: 15px;
+    background-color: black;
+    color: green;
+    font-size: 15px;
+  }
+  
+  .closebtn {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }

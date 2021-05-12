@@ -1,0 +1,90 @@
+#home{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    /* text-shadow: 10rem black;
+    border: 1px solid black; */
+    border-radius: 30px;
+    margin: 150px;
+    width: 400px;
+    height: 300px;
+    border: 2px solid green;
+    /* padding: 10px; */
+    box-shadow: 10px 15px 10px 5px brown;
+    margin-left: 450px;
+}
+h1{
+    color: red;
+    font-weight: bold;
+}
+h2{
+    color: purple;
+    font-size: 40px;
+    font-style: italic;
+}
+.head{
+    color: green;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    height: auto;
+    width: auto;
+    background-color: black;
+    border-radius: 20px;
+    
+
+}
+.card {
+  box-shadow: 10 40px 8px 10px black;
+  max-width: 350px;
+
+  text-align: center;
+  font-family: arial;
+  border: 2px solid black;
+  margin-top: -500px;
+  display: inline-block;
+  margin-left: 40px;
+  background-color: wheat;
+  border-bottom-left-radius: 20PX;
+  border-top-left-radius: 20PX;
+
+  
+  
+}
+
+.title {
+  color: black;
+  font-size: 18px;
+  margin-left: 10px;
+}
+p{
+    color: green;
+    font-weight: bold;
+
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 26px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 1.9;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}

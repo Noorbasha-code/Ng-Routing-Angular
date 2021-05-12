@@ -1,0 +1,115 @@
+
+.title{
+    color: black;
+    padding: 0 8px;
+    animation: moveright 1s linear 1;
+	animation-delay: 1s;
+	visibility: hidden;
+	animation-fill-mode: forwards;
+
+
+
+}
+body{
+    background-image: url('/assets/Background.jpg');
+}
+@keyframes moveright{
+    0%{
+        transform: translateX(-100px);
+        visibility: visible;
+    }
+
+    100%{
+        transform: translateX(0px);
+        visibility: visible;
+    }
+}
+
+.nav, .btn{
+    font-size: 18px;
+    color: white;
+}
+.nav li a{
+    color:white;
+    border-radius: 40px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.nav li a:hover{
+    color: white;
+    background-color: orange;
+}
+.active{
+    
+    color: black;
+    background-color:orange;
+}
+@media only screen and (max-width: 900px) {
+   
+    nav{
+        /* margin-left: 10px; */
+        display: block;
+        font-size: 10;
+        
+        
+    }
+
+    .nav li a{
+        color:white;
+        font-style: italic;
+        font-weight: bold;
+    }
+    .nav li a:hover{
+        color: black;
+        font-weight: bold;
+        background-color: orange;
+    }
+  }
+
+
+  
+  nav ul li{
+    display: inline-block;
+    padding: 2px;
+  }
+.img{
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+
+}
+  /* .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+  /* } */
+  
+  /* @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  /* } */ 

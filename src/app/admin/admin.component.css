@@ -1,0 +1,11 @@
+h3{
+    color:black;
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: center;
+}
+.components{
+    display: block;
+    padding: 10px 10px;
+    
+}
